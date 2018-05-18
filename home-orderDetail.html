@@ -1,0 +1,102 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <title>订单详情</title>
+
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content=""/>
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/home.css"/>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/jquery.ajaxInclude.js"></script>
+</head>
+<body class="max-body">
+
+<div class="myOrderDetail">
+    <div class="myOrderDetail-top">
+        <div class="">交易成功</div>
+        <div class="">2018-03-30 18:30:55</div>
+        <i class="am-icon-cube mdt-icon"></i>
+    </div>
+    <div class="myOrderDetail-con">
+        <h2 class="myOrderDetail-title">订单详情</h2>
+        <div class="myOrderDetail-list">
+            <ul class="am-gallery am-avg-sm-1 am-avg-md-1 am-avg-lg-1  order-list">
+                <li class="order-list-li">
+                    <div class="am-gallery-item" style="background: none">
+                        <!--<a href="" class="">-->
+                        <div class="am-g">
+                            <div class="am-u-sm-3 order-list-picture">
+                                <img src="images/p01.jpg" alt=""/>
+                            </div>
+                            <div class="am-u-sm-9 order-list-content">
+                                <h3 class="order-list-title order-list-title-m">诺和灵注射液(精蛋白生物合成人胰岛素注射液)</h3>
+                                <span class="order-list-price">¥&nbsp;188.00</span>
+                                <span class="order-list-price">×&nbsp;2</span>
+                            </div>
+                        </div>
+                        <!--</a>-->
+                    </div>
+                </li>
+                <li class="order-list-li">
+                    <div class="am-gallery-item" style="background: none">
+                        <!--<a href="" class="">-->
+                        <div class="am-g">
+                            <div class="am-u-sm-3 order-list-picture">
+                                <img src="images/p01.jpg" alt=""/>
+                            </div>
+                            <div class="am-u-sm-9 order-list-content">
+                                <h3 class="order-list-title order-list-title-m">诺和灵注射液(精蛋白生物合成人胰岛素注射液)</h3>
+                                <span class="order-list-price">¥&nbsp;298.00</span>
+                                <span class="order-list-price">×&nbsp;1</span>
+                            </div>
+                        </div>
+                        <!--</a>-->
+                    </div>
+                </li>
+            </ul>
+            <div class="myOrderDetail-total">
+                <div class="">商品总价：¥&nbsp;400.00<span>(含运费：0.00)</span></div>
+                <div class="">实际付款：¥&nbsp;360.00<span>(9折优惠)</span></div>
+            </div>
+            <div class="greybg"></div>
+        </div>
+        <div class="myOrderDetail-con2">
+            <p class="myOrderDetail-description">订单编号：14993922287685</p>
+            <p class="myOrderDetail-description">下单时间：2015-15-15 12:12:12</p>
+            <p class="myOrderDetail-description">付款时间：2015-15-15 12:12:12</p>
+        </div>
+    </div>
+</div>
+<!--页脚-->
+<script id="Footer" type="text/javascript">
+    $('#Footer').ajaxInclude('inc_footer.html');
+</script>
+
+</body>
+</html>

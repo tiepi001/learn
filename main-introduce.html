@@ -1,0 +1,271 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <title>产品页</title>
+
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content=""/>
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/home.css"/>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/jquery.ajaxInclude.js"></script>
+</head>
+<body class="max-body">
+<!--返回-->
+<a href="##" class="am-icon-btn am-icon-chevron-left introductb"></a>
+
+<!--产品图集-->
+<div data-am-widget="slider" class="am-slider am-slider-a1 am-slider-default-fork">
+    <ul class="am-slides">
+        <li><img src="images/p01.jpg" /></li>
+        <li><img src="images/p01.jpg" /></li>
+    </ul>
+</div>
+
+<section data-am-widget="accordion" class="am-accordion am-accordion-default" data-am-accordion='{ "multiple": true }'>
+    <dl class="am-accordion-item am-disabled">
+        <dd class="am-accordion-bd am-collapse am-in">
+            <!-- 规避 Collapase 处理有 padding 的折叠内容计算计算有误问题， 加一个容器 -->
+            <div class="am-accordion-content" style="padding: 0 10px;">
+                <h2>诺和灵注射液(精蛋白生物合成人胰岛素注射液)</h2>
+                <div class="am-accordion-content-list">
+                    <span>价格：<span class="price">￥69.00</span></span>
+                </div>
+                <div class="am-accordion-content-list01 clearfix">
+                    <div class="fl py">运费：免运费</div>
+                    <div class="fr py">剩余：371件</div>
+                </div>
+            </div>
+        </dd>
+    </dl>
+</section>
+<div class="greybg"></div>
+<div class="member-list">
+    <ul class="member-list-ul">
+        <li class="member-list-li member-list-li01">
+            <a href="javascript:void(0);" class="num-btn">
+                <span class="member-list-li-span member-list-li-span01">选择：数量</span>
+                <i class="am-icon-angle-right am-fr"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="greybg"></div>
+<div class="member-list">
+    <ul class="member-list-ul">
+        <li class="member-list-li member-list-li01">
+            <a href="main-index.html">
+                <span class="member-list-li-span member-list-li-span01">
+                    <img src="images/logo.jpg">厚熙官方商城
+                </span>
+                <i class="am-icon-angle-right am-fr"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+<!--产品介绍-->
+<div class="introducet">
+    <img src="images/intro.jpg" alt=""/>
+</div>
+<div class="" style="padding: 0 10px;">
+    <article data-am-widget="paragraph" class="am-paragraph am-paragraph-default yw-paragraph-default">
+        <img src="images/d01.png">
+        <img src="images/d02.png">
+    </article>
+</div>
+
+<!--底部购物车 按钮-->
+<div data-am-widget="navbar" class="am-navbar am-cf am-navbar-one shopcart-navbar" id="">
+    <div class="am-g am-navbar-nav am-cf am-avg-sm-4">
+        <div class="am-u-sm-2">
+            <a href="main-shopcart.html">
+                <i class="am-header-icon am-icon-shopping-cart navbar-i"></i>
+                <span class="navbar-LR">购物车</span>
+            </a>
+        </div>
+        <div class="am-u-sm-5 am-navbar-nav-big">
+            <a href="javascript:void(0);" class="am-btn am-btn-warning am-btn-gs add-btn" data-am-modal="{target: '#my-alert'}">
+                <span class="am-navbar-label edit-navbar-label">加入购物车</span>
+            </a>
+        </div>
+        <div class="am-u-sm-5 am-navbar-nav-big">
+            <a href="javascript:void(0);"  class="am-btn am-btn-danger am-btn-gs add-btn">
+                <span class="am-navbar-label edit-navbar-label">立即购买</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--加入购物车弹出-->
+<div class="add-box">
+    <div class="add-con">
+        <div class="add-cp clearfix">
+            <div class="acp-img">
+                <img src="images/p01.jpg" alt=""/>
+            </div>
+            <div class="acp-txt">
+                <h3>诺和灵注射液(精蛋白生物合成人胰岛素注射液)</h3>
+                <div class="acp-price">￥69.00</div>
+            </div>
+        </div>
+        <div class="am-g add-num">
+            <div class="am-u-sm-4 ann">购买数量</div>
+            <div class="am-u-sm-8 anm">
+                <div class="numberWithBtn">
+                    <a class="numberWithBtn-l" href="javascript:void(0);">&nbsp;-&nbsp;</a>
+                    <input type="hidden" value="5" id="jiage">
+                    <input type="text" class="numberWithBtn-m" value="1">
+                    <a class="numberWithBtn-r" href="javascript:void(0)">&nbsp;+&nbsp;</a>
+                </div>
+            </div>
+        </div>
+        <div class="add-tel">
+            购买三盒以上享受更多优惠，详情请联系客服；<br>
+            咨询电话：15633033505<br>
+            <span style="padding-left: 5em">18932918258</span><br>
+            <span style="padding-left: 5em">18032794919</span>
+        </div>
+        <div class="add-close">
+            <i class="am-icon-close"></i>
+        </div>
+    </div>
+    <div class="">
+        <!--点击加购物车时显示这个-->
+        <div class="add-qd">
+            <a href="main-shopcart.html" class="">确定</a>
+        </div>
+
+        <!--点击选择数量时显示这个-->
+        <div data-am-widget="navbar" class="am-navbar am-cf am-navbar-one shopcart-navbar num-qd" style="left: 0;">
+            <div class="am-g am-navbar-nav am-cf am-avg-sm-4">
+                <div class="am-u-sm-6 am-navbar-nav-big">
+                    <a href="main-shopcart.html" class="am-btn am-btn-warning am-btn-gs" data-am-modal="{target: '#my-alert'}">
+                        <span class="am-navbar-label edit-navbar-label">加入购物车</span>
+                    </a>
+                </div>
+                <div class="am-u-sm-6 am-navbar-nav-big">
+                    <a href="main-shopcart.html"  class="am-btn am-btn-danger am-btn-gs">
+                        <span class="am-navbar-label edit-navbar-label">立即购买</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="add-bg"></div>
+<script>
+    $(function(){
+        $('.add-btn').click(function(e){
+            if($('.add-box').css("display")=="none"){
+                e.stopPropagation();
+                $('.add-box').fadeIn("100");
+                $('.add-bg').fadeIn("100");
+                $('.add-qd').fadeIn("100");
+            }
+            else{
+                $('.add-box').fadeOut("100");
+                $('.add-bg').fadeOut("100");
+                $('.add-qd').fadeOut("100");
+            }
+        });
+        $('.add-close').click(function(){
+            $('.add-box').fadeOut("100");
+            $('.add-bg').fadeOut("100");
+            $('.add-qd').fadeOut("100");
+        });
+        $(document).click(function(e){
+            var _con = $(".add-box");
+            if(!_con.is(e.target) && (_con.has(e.target).length ===0)){
+                _con.fadeOut("100");
+                $('.add-box').fadeOut("100");
+                $('.add-bg').fadeOut("100");
+                $('.add-qd').fadeOut("100");
+                //$(mythis).fadeIn("100");
+            }
+        });
+    });
+
+    $(function(){
+        $('.num-btn').click(function(e){
+            if($('.add-box').css("display")=="none"){
+                e.stopPropagation();
+                $('.add-box').fadeIn("100");
+                $('.add-bg').fadeIn("100");
+                $('.num-qd').fadeIn("100");
+            }
+            else{
+                $('.add-box').fadeOut("100");
+                $('.add-bg').fadeOut("100");
+                $('.num-qd').fadeOut("100");
+            }
+        });
+        $('.add-close').click(function(){
+            $('.add-box').fadeOut("100");
+            $('.add-bg').fadeOut("100");
+            $('.num-qd').fadeOut("100");
+        });
+        $(document).click(function(e){
+            var _con = $(".add-box");
+            if(!_con.is(e.target) && (_con.has(e.target).length ===0)){
+                _con.fadeOut("100");
+                $('.add-box').fadeOut("100");
+                $('.add-bg').fadeOut("100");
+                $('.num-qd').fadeOut("100");
+                //$(mythis).fadeIn("100");
+            }
+        });
+    });
+</script>
+
+
+<!--提示-->
+<div class="promptBox">
+    <div class="prompt">
+        <div class="promptContent">
+            <a href="">您好，您已成为本店普通会员，完善资料后即可免费升级VIP会员，购买本店所有商品可享受折扣优惠；马上点击升级吧！</a>
+        </div>
+        <div class="promptClose">
+            <a href="javascript:void(0);" class="am-icon-close"></a>
+        </div>
+    </div>
+    <div class="promptOpen">
+        <a href="javascript:void(0);" class="am-icon-plus"></a>
+    </div>
+</div>
+<script>
+    $('.promptClose').click(function () {
+        $(this).parent().hide();
+        $('.promptOpen').show();
+    });
+    $('.promptOpen').click(function () {
+        $(this).hide();
+        $('.prompt').show();
+    });
+</script>
+</body>
+</html>

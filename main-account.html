@@ -1,0 +1,166 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <title>结算页</title>
+
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content=""/>
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/home.css"/>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src="js/PCASClass.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/jquery.ajaxInclude.js"></script>
+
+</head>
+<body class="max-body">
+<div class="header">
+    结算清单
+</div>
+
+<form>
+    <!--收货信息-start -->
+    <div class="address">
+        <div class="add-address">
+            <a href="home-adddz.html">
+                <i class="am-icon-plus-circle aad-l"></i>
+                <span class="aad-txt">添加地址</span>
+                <i class="am-icon-angle-right aad-r"></i>
+            </a>
+        </div>
+        <div class="add-address1">
+            <a href="home-address.html">
+                <i class="am-icon-map-marker aad-l"></i>
+                <div class="am-g aad-txt">
+                    <div class="am-u-sm-6 aat-name">收件人：王三</div>
+                    <div class="am-u-sm-6 aat-tel">16603030303</div>
+                    <div class="am-u-sm-12 aat-add">收货地址：河北省承德市五山区左权县云溪镇经济技术开发区汇景国际A座18层</div>
+                </div>
+                <i class="am-icon-angle-right aad-r"></i>
+            </a>
+        </div>
+    </div>
+    <div class="greybg"></div>
+    <!--<div class="u-address">
+        <div class="u-item">
+            <span class="left">姓名：</span>
+            <div class="right">
+                <input type="text" class="n-text" value=""/>
+            </div>
+        </div>
+        <div class="u-item">
+            <span class="left">电话：</span>
+            <div class="right">
+                <input type="text" class="n-text" value=""/>
+            </div>
+        </div>
+        <div class="u-item">
+            <span class="left">地址：</span>
+            <div class="right">
+                <select name="province" class="u-select"></select>
+                <select name="city" class="u-select"></select>
+                <select name="area" class="u-select"></select>
+                <input type="text" class="u-area" name="uaddress" value="" placeholder="请填写详细地址"/>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>-->
+    <!--商品列表-start -->
+    <div class="myaccount">
+        <div class="myaccount-list">
+            <ul class="am-gallery am-avg-sm-1 am-avg-md-1 am-avg-lg-1">
+                <li class="order-list-li">
+                    <div class="am-gallery-item" style="background: none">
+                        <!--<a href="" class="">-->
+                        <div class="am-g">
+                            <div class="am-u-sm-3 order-list-picture">
+                                <img src="images/p01.jpg" alt=""/>
+                            </div>
+                            <div class="am-u-sm-9 order-list-content">
+                                <h3 class="o">海澜之家男士休闲短袖T恤海澜之家男士休闲短袖T恤 买叔</h3>
+                                <span class="order-list-price">¥ 188</span>
+                                <span class="order-list-price">× 1</span>
+                            </div>
+                        </div>
+                        <!--</a>-->
+                    </div>
+                </li>
+                <li class="order-list-li">
+                    <div class="am-gallery-item" style="background: none">
+                        <!--<a href="" class="">-->
+                        <div class="am-g">
+                            <div class="am-u-sm-3 order-list-picture">
+                                <img src="images/p01.jpg" alt=""/>
+                            </div>
+                            <div class="am-u-sm-9 order-list-content">
+                                <h3 class="">海澜之家男士休闲短袖T恤海澜之家男士休闲短袖T恤 买叔</h3>
+                                <span class="order-list-price">¥ 188</span>
+                                <span class="order-list-price">× 1</span>
+                            </div>
+                        </div>
+                        <!--</a>-->
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="greybg5"></div>
+        <div class="myaccount-money">
+            <div class="am-g mym">
+                <div class="am-u-sm-6 mym-name">商品金额</div>
+                <div class="am-u-sm-6 mym-price">¥ 400</div>
+            </div>
+            <div class="am-g mym">
+                <div class="am-u-sm-6 mym-name">运费</div>
+                <div class="am-u-sm-6 mym-price">¥ 0</div>
+            </div>
+            <div class="am-g mym">
+                <div class="am-u-sm-6 mym-name">折扣</div>
+                <div class="am-u-sm-6 mym-price">（9折）- ¥ 40</div>
+            </div>
+        </div>
+        <div class="myaccount-foot">
+            <div class="myaccount-foot">
+                <span class="myaccount-description">
+                    <strong>应付总金额：<span class="red">360.00</span>元</strong>
+                </span>
+                <a class="am-btn accountbtn" href="main-pay.html">提交订单</a>
+            </div>
+        </div>
+    </div>
+</form>
+
+<!--地区插件js-->
+<script>
+    var province =$(".province").val();
+    var city =$(".city").val();
+    var area =$(".area").val();
+    new PCAS("province","city","area",province,city,area);
+</script>
+
+
+</body>
+</html>
